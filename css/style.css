@@ -1,0 +1,332 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Roboto, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	margin: 0 /* bỏ đẩy lề trên và trái từ body*/;
+	background-color:black;
+    color: white;
+}
+p{ line-height: 2rem; 
+	margin-bottom: 25px; 
+	margin-top: 0
+}
+
+
+*{ box-sizing: border-box} 
+.col-1
+{ 
+	width: 8.33%;
+	padding: 15px
+}
+.col-2
+{ 
+	width: 16.66%;
+	padding: 15px
+}
+.col-3
+{ 
+	width: 25%;
+	padding: 15px
+}
+.col-4
+{ 
+	width: 33.33%;
+	padding: 15px
+}
+.col-5
+{ 
+	width: 41.66%;
+	
+	padding: 15px
+}
+.col-6
+{ 
+	width: 50%;
+	padding: 15px
+}
+.col-7
+{ 
+	width: 58.33%;
+
+	padding: 15px
+}
+.col-8
+{ 
+	width: 66.66%;
+	padding: 15px
+}
+.col-9
+{ 
+	width: 75%;
+	padding: 15px
+}
+.col-10
+{ 
+	width: 83.33%;
+	padding: 15px
+}
+.col-11
+{ 
+	width: 91.66%;
+	padding: 15px
+}
+.col-12
+{ 
+	width: 100%;
+	padding: 15px
+}
+
+.row{ 
+	display: flex;
+	flex-wrap: wrap;
+}
+.container
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.thanhtim{
+    background-color: #805ef0;
+    padding: 1px;
+}
+
+.text-light { color: #fff}
+.top-bar i{
+    margin-left: 15px; 
+        
+}
+
+.text-right{ text-align: right}
+.text-center{ text-align: center}
+#header{
+    background-color: #000000;
+    border-bottom : 1px solid #9A9A9A;
+    position: sticky;
+	top:0;
+	z-index: 999;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.logo{
+    max-width: 180px;
+    height: auto;
+    padding: 10px 0
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+}
+#menu li{
+    position: relative;
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding:15px ;
+    font-size: 18px;
+     
+}
+#menu ul.menu-con{
+    position: absolute;
+    background-color:#0E0E0E ;
+    top: 45px;
+    padding:1px 0;
+    list-style: none;
+    width: 200px;
+    display: none
+}
+#menu li:hover> ul.menu-con{
+    display: block;
+}
+#menu ul.menu-con a{
+    padding: 8px 15px;
+    left: 0;
+}
+#menu ul.menu-con li:hover> a{
+    background-color: #805ef0; 
+}
+
+#menu ul.menu-con ul.menu-con{
+    left: 200px;
+    top: -1px;
+}
+#menu>li>a{
+    position: relative;
+}
+
+#menu>li>a:hover{
+    color: #805ef0;
+}
+
+.btn{
+    background-color: #805ef0;
+    color: white;
+    font-size: 18px;
+    padding: 8px 35px;
+    margin: 10px 0;
+    text-decoration:none;
+}
+.btn:hover{
+    color:rgba(0,0,0,1.00);
+    background-color: white;
+}
+
+.img{
+    background-image: url("../img/2(2).jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bhu{
+    color: white;
+    text-decoration: none
+        
+}
+.bhu p:hover{
+    color: #805ef0;
+}
+
+.canhdeu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-footer a{ display: block; text-decoration: none; color: white; padding: 5px 0}
+.menu-footer a:hover{ color: #805ef0}
+
+.lai{
+    border-bottom: 1px solid #878787
+}.icon{
+    color: #805ef0;
+    margin-right:10px;
+}
+.img-100 { width: 100%; height: auto}
+
+.img2{
+    background-image: url( " ../img/1(1).jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+.do{
+   padding: 100px 0; 
+}
+.page-header{
+    position: relative;
+    
+}
+.page-caption{
+    position: absolute;
+    width: 30%;
+    top:35%;
+    left: 10%;
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px 20px;
+
+}
+
+.page-caption h1{
+    font-size: 45px;
+    color: #805ef0;
+}
+
+.page-caption2{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    right: 10%;
+}
+
+.text-45{
+    margin-top:15px;
+    font-size: 45px;
+}
+.mt-30{
+    padding-top: 50px; 
+}
+.doo{
+    padding: 0;
+}
+.canhgiua{
+    display: flex;
+    align-items: center;
+}
+
+.bg-xam{
+    background-color:rgba(10,10,10,1.00) ;
+    padding: 30px
+}
+
+.img1{
+    max-width: 150px;
+    height: auto;
+}
+.voooo h2{
+    padding: 0 14px
+}
+
+.paga-header-game{
+    position: relative;
+}
+.page-caption-game{
+    position: absolute;
+    top:45%;
+}
+.card{
+    background-color:#000000;
+    white:100%;
+    height: 270px;
+}
+.bg-xam1{
+    background-color:#1A1A1A;
+    width: 100%;
+    height: auto;
+    padding: 5% 0;
+}
+.bg1{
+    padding: 5% 0;
+}
+.bg2{
+    padding: 5% 0;
+    background-color: #1B1B1B ;
+    margin: 60px 0
+}
+.dm{
+    color: white;
+    text-decoration: none;
+    
+}
+.dm :hover{
+    color:#805ef0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
